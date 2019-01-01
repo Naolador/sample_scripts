@@ -3,10 +3,6 @@
 ARRAY=(4 1 2 5 8 4 7 3 6 9 3)
 P1=0
 LEN=${#ARRAY[@]}
-NP1=''
-PT=''
-START=${ARRAY[$P1]}
-END=${ARRAY[$P2]}
 while (( $LEN > 0 ))
 do
     P2=$((P1+1))
